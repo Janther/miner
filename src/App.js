@@ -5,7 +5,6 @@ import CoinHive from "react-coin-hive";
 
 class App extends Component {
   render() {
-    let minerStyle = { width: "256px", height: "310px" };
     return (
       <div className="App">
         <header className="App-header">
